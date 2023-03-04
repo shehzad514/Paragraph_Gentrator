@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border: 2px solid red;
+}
+.items
+{
+    width: 30%;
+}
+.items h1 
+{
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+label
+{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+#amount
+{
+    width: 60px;
+}
+.btn
+{
+    margin-left: 10px;
+    background-color: cornflowerblue;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text-sec
+{
+    height: 70vh;
+    margin-top: 40px;
+
+}
+.text-sec p 
+{
+    padding-bottom: 20px;
+}
